@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ViewHeadlineIcon from "@mui/icons-material/ViewHeadline";
 function Navbar() {
+  const { navModal, setnavModal } = useState(false)
+  function modalFoo() {
+    console.log("navModal");
+
+  }
   return (
     <nav className="main_navbar">
       <div className="main_logo">
@@ -20,10 +25,10 @@ function Navbar() {
           <li>How it’s made?</li>
           <li>Our products</li>
           <li>Contact</li>
-      
+
         </ul>
       </div>
-      <ViewHeadlineIcon className="ViewHeadlineIcon" />
+      <ViewHeadlineIcon onclick={modalFoo} className="ViewHeadlineIcon" />
       <div className="nav_btn">
         <span> Buy now</span>
         <ArrowForwardIosIcon />

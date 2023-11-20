@@ -5,10 +5,10 @@ import Modal from "./Components/Modal";
 function App() {
   return (
     <>
-      {/* <Main/> */}
-      <Modal/>
+      <Main/>
+      {/* <Modal/> */}
     </>
   );
 }
-
+ 
 export default App;
