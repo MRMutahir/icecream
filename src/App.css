@@ -1,0 +1,258 @@
+.main_container_child {
+  margin: 0px auto;
+}
+.main_container {
+  background: #ffb8ca;
+}
+.nav_btn {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 10px 20px;
+  border: none;
+  color: #d41443;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  display: flex;
+  gap: 10px;
+}
+.main_navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0px;
+  position: relative;
+  z-index: 1;
+}
+.nav_value ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.nav_value ul li:nth-child(1) {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+.nav_value ul li {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+
+.Main_sec_circle {
+  position: absolute;
+  background: #ffa5ba;
+  width: 538px;
+  height: 538px;
+  top: 52px;
+  left: 676px;
+  border-radius: 100%;
+}
+.main_sec_child {
+  position: relative;
+}
+.mainIcecreamImg {
+  object-fit: contain;
+  margin-top: 35px;
+}
+.Main_sec_Parent {
+  display: flex;
+  padding-bottom: 48px;
+}
+.Main_sec_child_one {
+  flex: 7;
+  margin-left: 140px;
+}
+.Main_sec_child_buttons {
+  display: flex;
+  gap: 20px;
+}
+.Main_sec_child_buttons button {
+  padding: 10px 20px;
+
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "DM Sans";
+  letter-spacing: 1px;
+  border-radius: 20px;
+  border: none;
+}
+.Main_sec_child_buttons button:nth-child(1) {
+  background-color: #d41443;
+  color: #ffffff;
+}
+.Main_sec_child_buttons button:nth-child(2) {
+  background-color: #ffffff;
+  color: #d41443;
+}
+.Main_sec_child_items {
+  display: flex;
+  align-items: end;
+}
+.milk_para {
+  text-align: left;
+  width: 200px;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+.milk_para img {
+  margin-top: 10px;
+}
+.Main_sec_child_heading {
+  margin: 20px 0px;
+}
+
+.Main_sec_child_heading h2 {
+  font-family: "Titan One";
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.Main_sec_child_heading h1 {
+  font-family: "Titan One";
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #d41443;
+  text-transform: uppercase;
+}
+.main_sec_child_two {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+}
+
+/* .sixteen span:nth-child(1) {
+  border-radius: 100%;
+  background-color: #ffffff;
+  height: 26px;
+  width: 26px;
+} */
+
+.sixteen h1 {
+  font-family: "Titan One";
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 53px;
+  letter-spacing: 0.04em;
+  text-align: right;
+  color: #d41443;
+}
+
+.sixteen h5 {
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #ffffff;
+}
+/* .twentyThree span:nth-child(1) {
+  border-radius: 100%;
+  background-color: #ffffff;
+  height: 26px;
+  width: 26px;
+} */
+
+.twentyThree h1 {
+  font-family: "Titan One";
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 53px;
+  letter-spacing: 0.04em;
+  text-align: right;
+  color: #d41443;
+}
+
+.twentyThree h5 {
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #ffffff;
+}
+.sotasty {
+  position: relative;
+  right: 80px;
+}
+
+/* cards */
+
+.cards_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 0px 100px 0px;
+}
+.cards {
+  display: flex;
+  gap: 40px;
+  margin-top: 100px;
+}
+.cards_heading h2 {
+  font-family: "Titan One";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #ffa5ba;
+  text-transform: uppercase;
+}
+.cards_heading h1 {
+  font-family: Titan One;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #d41443;
+  text-transform: uppercase;
+}
+.cards_heading {
+  margin-bottom: 80px;
+}
+.cardOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffb8ca;
+  border-radius: 24px;
+  gap: 20px;
+  padding: 20px 0px;
+  height: 600px;
+}
+.cardOne .card_para p {
+  width: 200px;
+  text-align: center;
+}
+.card_img {
+  position: relative;
+  top: -190px;
+}
+.carddetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  /* margin-bottom: 180px; */
+}
