@@ -38,7 +38,7 @@ function Howmade() {
       <div className="made_content">
         <div className="made_content_wrapper">
           <div className="logo">
-            <img src="public\assets\icon1.png" alt="" />
+            <img src="\assets\icon1.png" alt="" />
           </div>
           <div className="number">
             <h1>721</h1>
