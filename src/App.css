@@ -762,7 +762,7 @@
     left: 10px;
   } */
   .Main_made {
-    align-items: flex-start;
+    /* align-items: flex-start; */
   }
 
   .Main_sec_circle {
