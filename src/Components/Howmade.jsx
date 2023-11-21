@@ -35,7 +35,44 @@ function Howmade() {
           </div>
         </div>
       </div>
-      <div className="made_content"></div>
+      <div className="made_content">
+        <div className="made_content_wrapper">
+          <div className="logo">
+            <img src="public\assets\icon1.png" alt="" />
+          </div>
+          <div className="number">
+            <h1>721</h1>
+          </div>
+          <div className="details">
+            <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </div>
+        </div>
+        <div className="made_content_wrapper">
+          <div className="logo">
+            <img src="\assets\icon2.png" alt="" />
+          </div>
+          <div className="number">
+            <h1>16kg</h1>
+          </div>
+          <div className="details">
+            <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </div>
+        </div>{" "}
+        <div className="made_content_wrapper">
+          <div className="logo">
+            <img src="\assets\icon3.png" alt="" />
+          </div>
+          <div className="number">
+            <h1>84</h1>
+          </div>
+          <div className="details">
+            <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </div>
+        </div>
+      </div>
+      <div className="grandimg">
+        <img src="\assets\home-pic5 1 (1).png" alt="grandimg" />
+      </div>
     </section>
   );
 }

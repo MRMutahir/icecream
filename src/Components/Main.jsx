@@ -4,6 +4,8 @@ import Main_sec from "./Main_sec";
 import Container from "@mui/material/Container";
 import Cards from "./Cards";
 import Howmade from "./Howmade";
+import Sliders from "./Sliders";
+import Footer from "./Footer";
 function Main() {
   return (
     <>
@@ -18,8 +20,16 @@ function Main() {
       </section>
       <Container>
         <Cards />
-        <Howmade />
+
+        {/* <Sliders/> */}
       </Container>
+      <section>
+        <Container>
+          {" "}
+          <Howmade />
+          <Footer />
+        </Container>
+      </section>
     </>
   );
 }

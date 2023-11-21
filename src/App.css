@@ -346,8 +346,68 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
-cursor: pointer;
+  cursor: pointer;
 }
 .made_work_cow_details {
   text-align: left;
+}
+.made_content {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+}
+.made_content_wrapper {
+  width: 200px;
+}
+.made_content_wrapper * {
+  margin: 10px 0px;
+}
+.made_content_wrapper p {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.made_content_wrapper h1 {
+  font-family: "Titan One";
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 0.04em;
+  color: #d41443;
+}
+.grandimg {
+  margin: 80px 0px;
+}
+
+.main_footer_card {
+  width: 300px;
+  background: #ffffff;
+  cursor: pointer;
+  
+}
+.main_footer_card div {
+  margin: 20px 0px;
+}
+.main_footer_card .foo_card_heading {
+  font-weight: 600;
+  margin: 10px 0px;
+}
+.time_foo {
+  color: #d41443;
+}
+.foo_btn {
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 1px;
+  background: #ffffff;
+}
+.main_footer_cards{
+  display: flex;
+  justify-content: space-around;
 }
