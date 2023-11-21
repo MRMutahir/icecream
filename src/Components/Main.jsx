@@ -22,11 +22,24 @@ function Main() {
       <Container>
         <Cards />
       </Container>
-      <section className="">
+      <section className="milk_bg_color">
         <Container>
           <Howmade />
         </Container>
       </section>
+      {/* <section>
+        <Container>
+          <Sliders />
+        </Container>
+      </section> */}
+      <div className="grandimg">
+        <img
+          height={"100%"}
+          width={"100%"}
+          src="\assets\home-pic5 1 (1).png"
+          alt="grandimg"
+        />
+      </div>
       <section className="footer_section">
         <Container>
           <Footer />

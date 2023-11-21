@@ -8,7 +8,8 @@ function Footer() {
           <div className="foo_btn">CAFE</div>
           <div>
             <p className="foo_card_heading">Chicago</p>
-            <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+            <p style={{color:"#907E82"}}>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+
           </div>
           <hr />
           <div>
@@ -30,7 +31,8 @@ function Footer() {
           </div>
           <div>
             <p className="foo_card_heading">Chicago</p>
-            <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+            <p style={{color:"#907E82"}}>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+
           </div>
           <hr />
           <div>
@@ -50,7 +52,7 @@ function Footer() {
           <div className="foo_btn">CAFE</div>
           <div>
             <p className="foo_card_heading">Chicago</p>
-            <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+            <p style={{color:"#907E82"}}>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
           </div>
           <hr />
           <div>

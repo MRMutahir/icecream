@@ -70,9 +70,7 @@ function Howmade() {
           </div>
         </div>
       </div>
-      <div className="grandimg">
-        <img  height={"100%"} width={"100%"} src="\assets\home-pic5 1 (1).png" alt="grandimg" />
-      </div>
+    
     </section>
   );
 }

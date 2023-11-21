@@ -9,7 +9,7 @@ function Sliders() {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings}>
+    <Slider className="Slider_main_flex" {...settings}>
       <div>
         <h3>1</h3>
       </div>
