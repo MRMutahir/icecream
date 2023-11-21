@@ -289,8 +289,8 @@
   padding: 200px;
 }
 .made_work_cow_img {
-  width: 200%;
-  margin-bottom: 100px;
+  /* width: 200%; */
+  margin-bottom: 50px;
 }
 .made_work_wrapper {
   background-image: url("\assets\milkbg.png");
@@ -354,6 +354,7 @@
 }
 .made_work_cow_details {
   text-align: left;
+  width: 400px;
 }
 .made_content {
   display: flex;
@@ -565,7 +566,7 @@
   }
   .made_work_cow_details {
     text-align: left;
-    width: 400px;
+    width: 400px !important;
     margin: 0px 0px 50px 0px;
   }
 }
@@ -666,10 +667,18 @@
   }
 }
 @media screen and (max-width: 453px) {
-  .Main_sec_circle {
+  /* .Main_sec_circle {
     left: 10px;
-  }
+  } */
   .Main_made {
     align-items: flex-start;
+  }
+  .Main_sec_circle {
+    width: 300px !important;
+    height: 300px !important;
+    left: 0;
+  }
+  .made_work_cow_img img{
+    width: 80%;
   }
 }
