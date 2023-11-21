@@ -8,32 +8,54 @@ function Cards() {
         <h1>products</h1>
       </div>
       <div className="cards">
-        <div className="cardOne">
+        <div className="cardOne pink">
           <img
             src="\assets\home-pic1.png"
             className="card_img"
             alt="starberry"
           />
-
           <div className="carddetails">
             {" "}
-            <div className="card_heading">
-              <h1>ice cream</h1>
-            </div>
-            <div className="card_dots">...</div>
-            <div className="card_para">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et
-              </p>
-            </div>
-            <div className="card_icon">
-              <img src="\assets\arrow-right 3.png" alt="" />
-            </div>
+            <h1>ice cream</h1> <h1>...</h1>{" "}
+            <p className="card_para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et
+            </p>{" "}
+            <img src="\assets\arrow-right 3.png" alt="" />
           </div>
         </div>
-        <div>Cards</div>
-        <div>Cards</div>
+        <div className="cardOne brown">
+          <img
+            src="\assets\home-pic2.png"
+            className="card_img"
+            alt="starberry"
+          />
+          <div className="carddetails">
+            {" "}
+            <h1>ice cream</h1> <h1>...</h1>{" "}
+            <p className="card_para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et
+            </p>{" "}
+            <img src="\assets\arrow-right 3.png" alt="" />
+          </div>
+        </div>
+        <div className="cardOne green">
+          <img
+            src="\assets\home-pic3.png"
+            className="card_img"
+            alt="starberry"
+          />
+          <div className="carddetails">
+            {" "}
+            <h1>ice cream</h1> <h1>...</h1>{" "}
+            <p className="card_para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et
+            </p>{" "}
+            <img src="\assets\arrow-right 3.png" alt="" />
+          </div>
+        </div>
       </div>
     </section>
   );

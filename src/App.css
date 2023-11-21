@@ -239,20 +239,115 @@
   border-radius: 24px;
   gap: 20px;
   padding: 20px 0px;
-  height: 600px;
+  position: relative;
+  width: 300px;
 }
-.cardOne .card_para p {
+.card_para {
   width: 200px;
   text-align: center;
-}
-.card_img {
-  position: relative;
-  top: -190px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin: 20px 0px;
+  color: #ffffff;
 }
 .carddetails {
+  margin-top: 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
-  /* margin-bottom: 180px; */
+}
+
+.carddetails h1 {
+  font-family: "Titan One";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.card_img {
+  position: absolute;
+  top: -190px;
+}
+.brown {
+  background: #f0d1a5;
+}
+.green {
+  background: #c2e297;
+}
+
+.Main_made {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.made_work_wrapper {
+  background-image: url("\assets\milkbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+.made_heading_wrapper h2 {
+  font-family: "Titan One";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #ffa5ba;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+.made_heading_wrapper h1 {
+  font-family: Titan One;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #d41443;
+  text-transform: uppercase;
+}
+.made_work_cow_details h5 {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  margin: 20px 0px;
+}
+.made_work_cow_details p {
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  margin: 20px 0px;
+}
+.AliquamSperateLine {
+  margin: 20px 0px;
+}
+.readMore {
+  margin: 20px 0px;
+  color: #d41443;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+cursor: pointer;
+}
+.made_work_cow_details {
+  text-align: left;
 }

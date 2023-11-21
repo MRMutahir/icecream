@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Main_sec from "./Main_sec";
 import Container from "@mui/material/Container";
 import Cards from "./Cards";
+import Howmade from "./Howmade";
 function Main() {
   return (
     <>
@@ -17,6 +18,7 @@ function Main() {
       </section>
       <Container>
         <Cards />
+        <Howmade />
       </Container>
     </>
   );
