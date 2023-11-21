@@ -25,6 +25,7 @@
   padding: 30px 0px;
   position: relative;
   z-index: 1;
+  position: relative;
 }
 
 .nav_value ul {
@@ -570,6 +571,38 @@
   display: none !important;
 }
 
+.modalList ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.Modal_main {
+  background: #E17992;
+  width: 200px;
+  /* position: absolute; */
+  top: 73px;
+  bottom: 0;
+  right: 427px;
+  z-index: 1;
+  margin: 20px 0px;
+  
+}
+
+.buyNowBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 24px;
+  color: #d41443;
+  font-family: "Dan Sans";
+}
+.ModalFoo {
+  cursor: pointer;
+}
+
 /* .Slider_main_flex{
   display: flex;
   justify-content: space-around;
@@ -611,6 +644,25 @@
 }
 
 @media screen and (max-width: 1300px) {
+  /* .nav_value {
+    display: none;
+  } */
+
+  .ViewHeadlineIcon {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 948px) {
+  .nav_value ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 832px) {
   .nav_value {
     display: none;
   }
@@ -618,6 +670,17 @@
   .ViewHeadlineIcon {
     display: block !important;
   }
+
+  /* .Modal_main {
+    padding: 20px;
+    background: #E17992;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    top: 86px;
+    bottom: 0;
+    right: 171px;
+  } */
 }
 
 @media screen and (max-width: 1195px) {

@@ -7,6 +7,7 @@ import Howmade from "./Howmade";
 import Sliders from "./Sliders";
 import Footer from "./Footer";
 import ResponsiveAppBar from "./Navbar";
+import Modal from "./Modal";
 function Main() {
   return (
     <>
@@ -14,6 +15,7 @@ function Main() {
       <section className="main_container">
         <Container maxWidth="xl">
           <div className="main_container_child">
+            
             <ResponsiveAppBar />
             <Main_sec />
           </div>

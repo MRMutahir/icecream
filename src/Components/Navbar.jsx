@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ViewHeadlineIcon from "@mui/icons-material/ViewHeadline";
+import Modal from "./Modal";
 function Navbar() {
-  const { navModal, setnavModal } = useState(false)
-  function modalFoo() {
-    console.log("navModal");
-
+  const [navModal, setModal] = useState(false);
+  function ModalFoo() {
+    console.log("ModalFoo");
+    setModal(true)
   }
   return (
     <nav className="main_navbar">
@@ -28,7 +29,9 @@ function Navbar() {
 
         </ul>
       </div>
-      <ViewHeadlineIcon onclick={modalFoo} className="ViewHeadlineIcon" />
+      <ViewHeadlineIcon onClick={() => ModalFoo()} className="ViewHeadlineIcon" />
+      {/* {navModal && <Modal />} */}
+      {/* <Modal style={{ display: "none" }} /> */}
       <div className="nav_btn">
         <span> Buy now</span>
         <ArrowForwardIosIcon />
