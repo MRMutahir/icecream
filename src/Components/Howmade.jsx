@@ -13,7 +13,7 @@ function Howmade() {
       <div className="made_work">
         <div className="made_work_wrapper">
           <div className="made_work_cow_img">
-            <img src="\assets\cow.png" alt="cow" />
+            <img height={"100%"} width={"100%"} src="\assets\cow.png" alt="cow" />
           </div>
           <div className="made_work_cow_details">
             <h5>
@@ -71,7 +71,7 @@ function Howmade() {
         </div>
       </div>
       <div className="grandimg">
-        <img src="\assets\home-pic5 1 (1).png" alt="grandimg" />
+        <img  height={"100%"} width={"100%"} src="\assets\home-pic5 1 (1).png" alt="grandimg" />
       </div>
     </section>
   );

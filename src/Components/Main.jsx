@@ -6,6 +6,7 @@ import Cards from "./Cards";
 import Howmade from "./Howmade";
 import Sliders from "./Sliders";
 import Footer from "./Footer";
+import ResponsiveAppBar from "./Navbar";
 function Main() {
   return (
     <>
@@ -13,20 +14,21 @@ function Main() {
       <section className="main_container">
         <Container maxWidth="xl">
           <div className="main_container_child">
-            <Navbar />
+            <ResponsiveAppBar />
             <Main_sec />
           </div>
         </Container>
       </section>
       <Container>
         <Cards />
-
-        {/* <Sliders/> */}
       </Container>
-      <section>
+      <section className="">
         <Container>
-          {" "}
           <Howmade />
+        </Container>
+      </section>
+      <section className="footer_section">
+        <Container>
           <Footer />
         </Container>
       </section>

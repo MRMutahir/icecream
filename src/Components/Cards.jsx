@@ -12,7 +12,7 @@ function Cards() {
           <img
             src="\assets\home-pic1.png"
             className="card_img"
-            alt="starberry"
+            alt="strawberry"
           />
           <div className="carddetails">
             {" "}
@@ -28,7 +28,7 @@ function Cards() {
           <img
             src="\assets\home-pic2.png"
             className="card_img"
-            alt="starberry"
+            alt="strawberry"
           />
           <div className="carddetails">
             {" "}
@@ -44,7 +44,7 @@ function Cards() {
           <img
             src="\assets\home-pic3.png"
             className="card_img"
-            alt="starberry"
+            alt="strawberry"
           />
           <div className="carddetails">
             {" "}
