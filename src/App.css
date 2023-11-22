@@ -613,10 +613,10 @@
   width: 100%;
   padding: 20px;
   border-radius: 2px;
-
 }
-
-
+.sootasty img {
+  display: none;
+}
 
 section.Modal_main div {
   margin: 30px 10px;
