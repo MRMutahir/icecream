@@ -69,7 +69,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="Main_sec_child_buttons">
+      <div className="Main_sec_child_buttons Main_sec_child_buttons_foo">
         <button className="Products">Products</button>
         <button className="made">How it’s made?</button>
       </div>

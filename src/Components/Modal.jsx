@@ -6,7 +6,7 @@ function Modal() {
   return (
     <section className='Modal_main'>
       <div className='croos_btn'>
-        <CloseIcon />
+        <CloseIcon className='croosSvg' />
       </div>
       <div className='buyNowBtn'>
         <span> Buy now</span>

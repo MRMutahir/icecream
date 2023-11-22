@@ -72,6 +72,8 @@
 .Main_sec_Parent {
   display: flex;
   padding-bottom: 48px;
+  /* position: relative; */
+  z-index: 0; 
 }
 
 .Main_sec_child_one {
@@ -577,19 +579,9 @@
   flex-direction: column;
 }
 
-.Modal_main {
-  background: #E17992;
-  width: 200px;
-  /* position: absolute; */
-  top: 73px;
-  bottom: 0;
-  right: 427px;
-  z-index: 1;
-  margin: 20px 0px;
-  
-}
+/*  */
 
-.buyNowBtn{
+.buyNowBtn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -602,7 +594,14 @@
 .ModalFoo {
   cursor: pointer;
 }
-
+.Modal_main {
+  background: #e17992;
+  width: 200px;
+  position: absolute;
+  top: 87px;
+  right: 0;
+  width: 100%;
+  padding: 20px;}
 /* .Slider_main_flex{
   display: flex;
   justify-content: space-around;
@@ -670,17 +669,20 @@
   .ViewHeadlineIcon {
     display: block !important;
   }
-
-  /* .Modal_main {
-    padding: 20px;
-    background: #E17992;
-    width: 200px;
-    border-radius: 10px;
-    position: absolute;
-    top: 86px;
-    bottom: 0;
-    right: 171px;
-  } */
+  .nav_btn {
+    display: none;
+  }
+  .Main_sec_Parent{
+    position: relative;
+    z-index: 0;
+    
+  }
+  .Main_sec_circle{
+   top: 0 !important;   
+  }
+  .twentyThree{
+    z-index: 1;
+  }
 }
 
 @media screen and (max-width: 1195px) {
@@ -820,7 +822,6 @@
 }
 
 @media screen and (max-width: 453px) {
-
   /* .Main_sec_circle {
     left: 10px;
   } */
@@ -839,8 +840,23 @@
   }
 }
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 416px) {
   .foo_heading_icon p {
     width: 220px;
+  }
+  .Main_sec_child_buttons_foo {
+    flex-direction: column;
+  }
+  .foo_heading h2 {
+    font-size: 24px;
+  }
+  .foo_heading h1 {
+    font-size: 48px;
+  }
+  .Main_sec_Parent{
+    position: relative;
+  }
+  .croos_btn .croosSvg{
+    text-align: left;
   }
 }
