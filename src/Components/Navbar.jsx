@@ -5,8 +5,8 @@ import Modal from "./Modal";
 function Navbar() {
   const [navModal, setModal] = useState(false);
   function ModalFoo() {
-    console.log("ModalFoo");
-    setModal(true)
+    console.log("toogel button");
+    setModal((prevModal) => !prevModal);
   }
   return (
     <nav className="main_navbar">
@@ -26,12 +26,14 @@ function Navbar() {
           <li>How it’s made?</li>
           <li>Our products</li>
           <li>Contact</li>
-
         </ul>
       </div>
-      <ViewHeadlineIcon onClick={() => ModalFoo()} className="ViewHeadlineIcon" />
-      {/* {navModal && <Modal />} */}
-      {/* <Modal style={{ display: "none" }} /> */}
+      <ViewHeadlineIcon
+        onClick={() => ModalFoo()}
+        className="ViewHeadlineIcon"
+      />
+      {navModal && <Modal />}
+
       <div className="nav_btn">
         <span> Buy now</span>
         <ArrowForwardIosIcon />

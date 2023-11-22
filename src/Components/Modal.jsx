@@ -1,18 +1,18 @@
-import React from 'react'
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import CloseIcon from '@mui/icons-material/Close';
-function Modal() {
+import React from "react";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import CloseIcon from "@mui/icons-material/Close";
 
+function Modal() {
   return (
-    <section className='Modal_main'>
-      <div className='croos_btn'>
-        <CloseIcon className='croosSvg' />
+    <section className="Modal_main">
+      <div className="croos_btn">
+        <CloseIcon className="croosSvg" />
       </div>
-      <div className='buyNowBtn'>
+      <div className="buyNowBtn">
         <span> Buy now</span>
-        <ArrowForwardIosIcon  />
+        <ArrowForwardIosIcon />
       </div>
-      <div className='modalList'>
+      <div className="modalList">
         <ul>
           <li style={{ color: "#D41443" }}>Home</li>
           <li>About us</li>
@@ -22,7 +22,7 @@ function Modal() {
         </ul>
       </div>
     </section>
-  )
+  );
 }
 
-export default Modal
+export default Modal;
