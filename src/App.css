@@ -71,8 +71,9 @@
 
 .Main_sec_Parent {
   display: flex;
-  padding-bottom: 48px;
+  /* padding-bottom: 48px;  padding with  image */
   /* position: relative; */
+  padding-bottom: 100px; 
   z-index: 0;
 }
 
