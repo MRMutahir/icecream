@@ -50,7 +50,7 @@ function Main_sec() {
           <h5>food trucks</h5>
         </div>{" "}
         <div className="sootasty">
-          <img  height={"100%"} width={"100%"} src="\assets\sotasty.png" alt="sotasty"  className="sotasty"/>
+          <img  height={"100%"} width={"100%"} src="\assets\sotast.png" alt="sotasty"  className="sotasty"/>
         </div>
       </div>
     </div>
