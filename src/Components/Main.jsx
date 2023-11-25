@@ -15,7 +15,6 @@ function Main() {
       <section className="main_container">
         <Container maxWidth="xl">
           <div className="main_container_child">
-            
             <ResponsiveAppBar />
             <Main_sec />
           </div>
